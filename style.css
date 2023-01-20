@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: fit-content;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #862597, #700ed2);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.huddle img {
+    color: #700ed2;
+    background-color: #862597;
+    width: 100px;
+}
+
+.huddle1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.hudd {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hudd h1 {
+    flex: 1 1 auto;
+    color: #862597;
+}
+
+.hudd p {
+    flex: 1 1 auto;
+    color: #862597;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #700ed2;
+    border: solid #700ed2 1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    right: 60px;
+}
+
+.social img {
+    width: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
